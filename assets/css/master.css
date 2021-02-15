@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar-header img{
+  width: 200px;
+}
+
+.jumbotron{
+  margin-top: 50px;
+  background-image: url("../img/bg-home.svg");
+  background-size: cover;
+  background-size: 100%;
+}
+
+#jumbo{
+  padding: 0;
+  border-radius: none;
+  overflow: hidden;
+}
+
+form{
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+
+/*UTILITIES*/
+.text-white{
+  color: #ffffff;
+}
+
+.text-lblue{
+  color: #BBCDFE;
+}
+
+.text-blue{
+  color: #031C4E;
+}
+.btn-100{
+  width: 100%;
+}
