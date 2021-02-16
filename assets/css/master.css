@@ -5,33 +5,40 @@
   font-family: 'Roboto', sans-serif;
 }
 
-.navbar-header img{
-  width: 200px;
-}
-
-.navbar{
-  border: none;
-  width: 100%;
-}
-
-.navbar-brand{
-  height: auto;
-}
-
-.nav {
-
-}
-nav{
+.mynavbar{
   height: 60px;
   line-height: 60px;
 }
 
-.navbar-brand img{
-  height: 30px;
+.mynav-ul li, .mynav-ul{
+  display: inline;
+  padding: 0 5px;
+}
+
+.mynav-ul li a{
+  color: #031C4E;
+}
+
+.mynav-collapse{
+  display: none;
+  float: right;
+}
+
+.logo-nav{
+  padding-bottom: 8px;
+  margin-right: 50px;
+}
+
+.fa-sort-down{
+  margin-bottom: 5px;
+}
+
+.signup-btn{
+  background-color: #ffffff;
+  border: 1px solid blue;
 }
 
 .jumbotron{
-  margin-top: 50px;
   margin-bottom: 0;
   background-color: rgba(0,0,0,0);
 }
@@ -47,13 +54,17 @@ form{
   border-radius: 5px;
 }
 
+form input{
+  margin: 20px 0;
+}
+
 .btn-google{
   color: #626262;
   box-shadow: 3px 3px 5px #888888;
 }
 
 .mybtn{
-  background-color: #579AFD;
+  background-color: #0169FD;
 }
 
 .logos li{
@@ -63,6 +74,22 @@ form{
 .logos li img{
   width: 150px;
 }
+
+.tab-sw{
+  list-style: none;
+  padding-left: 150px;
+  padding-top: 30px;
+}
+
+.tab-sw li{
+  padding: 5px;
+}
+
+.card h4,
+.card p{
+  padding: .2em 0;
+}
+
 
 /*UTILITIES*/
 .text-white{
@@ -83,7 +110,8 @@ form{
 
 .btn-100{
   width: 100%;
-  margin-top: 10px;
+  margin-top: 5px;
+  margin-bottom: 10px;
 }
 
 .bg-grey{
@@ -92,4 +120,17 @@ form{
 
 .section-pad{
   padding: 30px 0;
+}
+
+.mt-1{
+  margin-top: 2em;
+}
+.mt-2{
+  margin-top: 1em;
+}
+
+@media all and (max-width: 992px) {
+  .text-jumbo h1{
+    font-size: 3em;
+  }
 }
