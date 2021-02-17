@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
+
 }
 
 .navbar-fixed-top{
@@ -106,6 +107,10 @@ form input{
   border-left: 1px solid lightblue;
   padding-left: 5px;
 }
+.tab-sw li a:hover{
+  border-left: 2px solid blue;
+  text-decoration: none;
+}
 
 .card h4,
 .card p{
@@ -137,10 +142,14 @@ form input{
   color: #066AFD;
 }
 
-.foot-logos li{
+.foot-logos li {
   display: inline;
   list-style: none;
   padding-right: 1%;
+  color: #ffffff;
+}
+.foot-logos li a{
+  color: #ffffff;
 }
 .ul-foot{
   padding: 10px;
@@ -182,6 +191,19 @@ form input{
   left: 87.5%;
   color: white;
   transform: scale(.7);
+}
+
+.helper:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 10px solid #FFFFFF;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #FFFFFF;
+  border-bottom: 10px solid transparent;
+  right: 32%;
+  top: 60%;
 }
 /* .regions li{
   border-bottom: 1px solid lightblue;
@@ -300,11 +322,16 @@ form input{
   .mycarousel img{
     width: 250px;
   }
+
+  .server-section{
+    font-size: .9em;
+  }
+
   .helper{
     position: fixed;
     width: 300px;
     top: 100%;
-    left: 105%;
+    left: 100%;
     transform: translate(-110%, -110%);
   }
   .helper div i.far{
@@ -324,7 +351,7 @@ form input{
   .helper div .notify {
     position: absolute;
     top: -13%;
-    left: 113%;
+    left: 114%;
     color: white;
     transform: scale(.7);
   }
