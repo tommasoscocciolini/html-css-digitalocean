@@ -90,7 +90,7 @@ form input{
   padding: 10px;
 }
 .logos li img{
-  width: 150px;
+  width: calc(100%/6 -10px) ;
 }
 
 .tab-sw{
