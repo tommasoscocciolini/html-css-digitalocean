@@ -37,9 +37,21 @@
   margin-bottom: 5px;
 }
 
+.btn-google{
+  position: relative;
+}
+
+.btn-google i{
+  position: absolute;
+  top: 50%;
+  left: 2%;
+  transform: translateY(-50%);
+}
+
 .signup-btn{
   background-color: #ffffff;
-  border: 1px solid blue;
+  border: 1px solid #066AFD;
+  color: #066AFD;
 }
 
 .jumbotron{
@@ -82,8 +94,8 @@ form input{
 
 .tab-sw{
   list-style: none;
-  padding-left: 150px;
-  padding-top: 30px;
+  font-size: 1.5em;
+  padding-left: 50px;
 }
 
 .tab-sw li{
@@ -113,10 +125,65 @@ form input{
   color: #066AFD;
 }
 
-.server-section{
-  background-color: blue;
+.server-element{
+  border-bottom: 1px solid lightblue;
+  padding-top: 10px;
 }
-.regions li{
+.server-element-last{
+  padding-top: 10px;
+}
+
+.create-account-btn{
+  color: #066AFD;
+}
+
+.foot-logos li{
+  display: inline;
+  list-style: none;
+  padding-right: 1%;
+}
+.ul-foot{
+  padding: 10px;
+}
+.ul-foot li{
+  list-style: none;
+  padding: 5px 0;
+}
+.ul-foot .ul-head{
+  font-weight: 800;
+}
+.helper{
+  width: 400px;
+  position: fixed;
+  top: 100%;
+  left: 100%;
+  transform: translate(-110%, -110%);
+}
+.helper .shark{
+  position: relative;
+}
+.helper div i.far{
+  position: absolute;
+  top: -10%;
+  left: 85%;
+  color: white;
+  transform: scale(1);
+}
+.helper div i.fas{
+  position: absolute;
+  top: -10%;
+  left: 85%;
+  color: red;
+  transform: scale(.8);
+}
+.helper div .notify {
+  position: absolute;
+  top: -12%;
+  left: 87.5%;
+  color: white;
+  transform: scale(.7);
+}
+/* .regions li{
   border-bottom: 1px solid lightblue;
   list-style: none;
   line-height: 250%;
@@ -129,7 +196,7 @@ form input{
 }
 .regions li a{
   float: right;
-}
+} */
 
 /*UTILITIES*/
 .text-white{
@@ -138,6 +205,10 @@ form input{
 
 .text-lblue{
   color: #BBCDFE;
+}
+
+.text-blue-grey{
+  color: #586686;
 }
 
 .text-blue{
@@ -162,6 +233,24 @@ form input{
   background-color: #FFFFFF;
 }
 
+.bg-blue{
+ background-image: -webkit-linear-gradient(top left, #066AFD 0%, #031C4E 100%);
+ background-image: -o-linear-gradient(top left, #066AFD 0%, #031C4E 100%);
+ background-image: linear-gradient(to bottom right, #066AFD 0%, #031C4E 100%);
+}
+
+.bg-map{
+  /* background-image: url("https://prismic-io.s3.amazonaws.com/www-static/a2e2e54b-93f5-4579-9fa2-bd957fea611a_bg-map.svg");
+  background-color: blue;
+  background-repeat: no-repeat;
+  background-size: cover; */
+  background: url(https://prismic-io.s3.amazonaws.com/www-static/a2e2e54b-93f5-4579-9fa2-bd957fea611a_bg-map.svg) 50% 50% / cover no-repeat rgb(3, 27, 78);
+}
+
+.bg-dblue{
+  background-color: #031C4E;
+}
+
 .section-pad{
   padding-top: 30px;
   padding-bottom: 30px;
@@ -178,6 +267,11 @@ form input{
   .text-jumbo h1{
     font-size: 3em;
   }
+
+  .logos li img{
+    width: 100px;
+  }
+
   .tab-sw{
     padding-left: 10px;
     padding-top: 10px;
@@ -195,11 +289,43 @@ form input{
     font-size: 2em;
   }
 
+  .logos li img{
+    width: 150px;
+  }
+
   .text-jumbo p{
     font-size: 1.3em;
   }
 
   .mycarousel img{
     width: 250px;
+  }
+  .helper{
+    position: fixed;
+    width: 300px;
+    top: 100%;
+    left: 105%;
+    transform: translate(-110%, -110%);
+  }
+  .helper div i.far{
+    position: absolute;
+    top: -10%;
+    left: 110%;
+    color: white;
+    transform: scale(1);
+  }
+  .helper div i.fas{
+    position: absolute;
+    top: -10%;
+    left: 110%;
+    color: red;
+    transform: scale(.8);
+  }
+  .helper div .notify {
+    position: absolute;
+    top: -13%;
+    left: 113%;
+    color: white;
+    transform: scale(.7);
   }
 }
