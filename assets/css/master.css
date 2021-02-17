@@ -278,6 +278,10 @@ form input{
   padding-bottom: 30px;
 }
 
+.big-parag{
+  font-size:1.3em;
+}
+
 .mt-1{
   margin-top: 2em;
 }
